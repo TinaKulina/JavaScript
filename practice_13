@@ -1,0 +1,20 @@
+//Напишите цикл, который за 7 вызовов console.log выводит такой треугольник:
+#
+##
+###
+####
+#####
+######
+#######
+
+
+<!DOCTYPE HTML>
+<html>
+<body>
+<script>
+  for ( var desh='#';desh.length<=7;desh+='#'){
+       console.log(desh);
+    }
+  </script>
+</body>
+</html>
